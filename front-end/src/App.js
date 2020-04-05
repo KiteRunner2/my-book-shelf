@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
+import SearchPage from './components/SearchPage';
 
 function App() {
     return (
         <div>
             <NavBar />
-            <SearchBar />
+            <SearchPage />
         </div>
     );
 }

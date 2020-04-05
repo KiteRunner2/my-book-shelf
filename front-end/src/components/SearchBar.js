@@ -1,7 +1,17 @@
-import React from 'react';
-function SearchBar() {
-    function searchHandler(e) {
+import React, { useState } from 'react';
+function SearchBar(props) {
+    const [inputValue, setInputValue] = useState('');
+
+    function handleInputChange(e) {
+        setInputValue(e.target.value);
+        // console.log(inputValue);
+    }
+    function handleButtonClick(e) {
         e.preventDefault();
+        console.log(
+            `handleButtonClick called and inputValue is: ${inputValue}`
+        );
+        props.setPhrase(inputValue);
     }
     return (
         <div class="container">
@@ -11,14 +21,16 @@ function SearchBar() {
                         Search
                     </label>
                     <input
+                        onChange={handleInputChange}
                         type="text"
                         class="form-control form-control-lg"
                         id="inlineFormInput"
                         placeholder="Type book title or author"
+                        value={inputValue}
                     />
                     <div className="input-group-append">
                         <button
-                            onClick={searchHandler}
+                            onClick={handleButtonClick}
                             className="btn btn-lg btn-primary"
                         >
                             Search
