@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router, Link } from 'react-router-dom';
 function NavBar() {
     const style = {
         jumbotron: {
@@ -31,14 +32,21 @@ function NavBar() {
                 >
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link to="/home" className="nav-link">
                                 Home <span className="sr-only">(current)</span>
-                            </a>
+                            </Link>
+                            {/* <a className="nav-link" href="#">
+                                Home <span className="sr-only">(current)</span>
+                            </a> */}
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link to="/search" className="nav-link">
+                                Search{' '}
+                                <span className="sr-only">(current)</span>
+                            </Link>
+                            {/* <a className="nav-link" href="#">
                                 Search
-                            </a>
+                            </a> */}
                         </li>
                     </ul>
                     {/* <form className="form-inline my-2 my-lg-0">

@@ -10,14 +10,15 @@ function bookCard(props) {
                     <hr></hr>
                     <img src={props.imgLink ? props.imgLink : ''} />
                 </div>
-                <div className="col-sm-8 text-center py-3 px-lg-5 text-monospace">
+                <div className="d-flex col-sm-8 text-center py-3 px-lg-5 text-monospace">
+                    {' '}
                     <span className="font-weight-bold">Description:</span>{' '}
-                    {props.description}
+                    <span className="align-middle"> {props.description}</span>
                 </div>
-                <div className="col-sm-2  text-center py-3">
+                <div className="col-sm-2  text-center align-middle py-3">
                     <a
                         href={props.previewLink}
-                        className="btn btn-small btn-secondary"
+                        className="btn btn-small btn-secondary align-middle"
                         target="blank"
                     >
                         Visit
@@ -25,7 +26,7 @@ function bookCard(props) {
                     {'    '}
                     <a
                         href="#"
-                        className="btn btn-small btn-secondary"
+                        className="btn btn-small btn-secondary align-middle"
                         target="blank"
                     >
                         Save
