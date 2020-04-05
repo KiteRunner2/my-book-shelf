@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
+import SearchResultsPage from './searchResultsPage';
 
 function SearchPage() {
     const [searchValue, setSearchValue] = useState('');
@@ -26,13 +27,9 @@ function SearchPage() {
         setSearchResult([...books.items]);
     }
     return (
-        <div>
+        <div className="container">
             <SearchBar setPhrase={setSearch} />
-            <div>
-                {searchResult.map((element) => (
-                    <div>{element['volumeInfo']['title']}</div>
-                ))}
-            </div>
+            <SearchResultsPage searchValue={searchResult} />
         </div>
     );
 }
