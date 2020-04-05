@@ -1,0 +1,532 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1872,
+    "items": [{
+            "kind": "books#volume",
+            "id": "9v1GPQAACAAJ",
+            "etag": "TV/9ZSpxPy0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/9v1GPQAACAAJ",
+            "volumeInfo": {
+                "title": "Harry Potter's School Books",
+                "authors": [
+                    "J. K. Rowling"
+                ],
+                "publisher": "Bloomsbury Childrens",
+                "publishedDate": "2004-05",
+                "description": "As featured in the first year set texts reading list in Harry Potter and the Philosopher's Stone, 'Fantastic Beasts and where to find them' is an extensive introduction to the magical beasts that exist in the magical, non-Muggle world. Some of the animals featured in the A-Z you will have already met in the existing Harry Potter books: for example Hippogriff, Flobberworm, Kappa - others you certainly won't: read on to find out exactly what a Chizpurfle is, why there are so few Erumpents, or why one should always beware of the sinister Lethifold…As Albus Dumbledore says in his introduction, this set text book by Newt Scamander has given the perfect grounding to many a Hogwarts student. It will be helpful to all Muggles out there too… On reading the book you will also find that Harry, Ron and (in one instance) Hermione - couldn't resist grafittiing the book, and adding their own personal hand-written opinions. Did you know that : there are 700 ways of committing a foul in Quidditch? The game first began to evolve on Queerditch Marsh? What Bumphing is? That Puddlemere United is oldest team in the Britain and Ireland league? (founded 1163) All this information and much more could be yours once you have read this book: this is all you could ever need to know about the history, the rules - and the breaking of the rules - of the noble wizarding sport of Quidditch.",
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=9v1GPQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=9v1GPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=9v1GPQAACAAJ&dq=%22Harry+Potter%22&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=9v1GPQAACAAJ&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_s_School_Books.html?hl=&id=9v1GPQAACAAJ"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "accessViewStatus": "NONE"
+            },
+            "searchInfo": {
+                "textSnippet": "That Puddlemere United is oldest team in the Britain and Ireland league? (founded 1163) All this information and much more could be yours once you have read this book- this is all you could ever need to know about the history, the rules - ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "f280CwAAQBAJ",
+            "etag": "WfgoClQsoaw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/f280CwAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter: The Complete Collection (1-7)",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-14",
+                "description": "All seven eBooks in the multi-award winning, internationally bestselling Harry Potter series, available as one download with stunning cover art by Olly Moss. Enjoy the stories that have captured the imagination of millions worldwide.",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.14.13.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=f280CwAAQBAJ&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=f280CwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=f280CwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "listPrice": {
+                    "amount": 69.99,
+                    "currencyCode": "CAD"
+                },
+                "retailPrice": {
+                    "amount": 69.99,
+                    "currencyCode": "CAD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=f280CwAAQBAJ&rdid=book-f280CwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 69990000,
+                        "currencyCode": "CAD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 69990000,
+                        "currencyCode": "CAD"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_The_Complete_Collection_1_7-sample-epub.acsm?id=f280CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_The_Complete_Collection_1_7-sample-pdf.acsm?id=f280CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "All seven eBooks in the multi-award winning, internationally bestselling Harry Potter series, available as one download with stunning cover art by Olly Moss. Enjoy the stories that have captured the imagination of millions worldwide."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7rtOzQEACAAJ",
+            "etag": "0hrhqJKky+w",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7rtOzQEACAAJ",
+            "volumeInfo": {
+                "title": "Harry Potter and the Philosopher's Stone",
+                "authors": [
+                    "Joanne K. Rowling"
+                ],
+                "publishedDate": "2013",
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "previewLink": "http://books.google.ca/books?id=7rtOzQEACAAJ&dq=%22Harry+Potter%22&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=7rtOzQEACAAJ&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Philosopher_s_Stone.html?hl=&id=7rtOzQEACAAJ"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "accessViewStatus": "NONE"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "1o7D0m_osFEC",
+            "etag": "dhvYh6js0Qs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/1o7D0m_osFEC",
+            "volumeInfo": {
+                "title": "Harry Potter and the Chamber of Secrets",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "\"'There is a plot, Harry Potter. A plot to make most terrible things happen at Hogwarts School of Witchcraft and Wizardry this year.'\" Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft and Wizardry for his second year, Harry hears strange whispers echo through empty corridors - and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "3.18.17.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=1o7D0m_osFEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=1o7D0m_osFEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=1o7D0m_osFEC&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=1o7D0m_osFEC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1o7D0m_osFEC"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "listPrice": {
+                    "amount": 10.99,
+                    "currencyCode": "CAD"
+                },
+                "retailPrice": {
+                    "amount": 10.99,
+                    "currencyCode": "CAD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=1o7D0m_osFEC&rdid=book-1o7D0m_osFEC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 10990000,
+                        "currencyCode": "CAD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 10990000,
+                        "currencyCode": "CAD"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_and_the_Chamber_of_Secrets-sample-epub.acsm?id=1o7D0m_osFEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_and_the_Chamber_of_Secrets-sample-pdf.acsm?id=1o7D0m_osFEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "&#39;There is a plot, Harry Potter."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7yyUswEACAAJ",
+            "etag": "Hvsib/V1gj4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7yyUswEACAAJ",
+            "volumeInfo": {
+                "title": "Harry Potter - The Illustrated Collection",
+                "authors": [
+                    "J. K. Rowling"
+                ],
+                "publisher": "Bloomsbury Publishing",
+                "publishedDate": "2017-11-16",
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7yyUswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7yyUswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=7yyUswEACAAJ&dq=%22Harry+Potter%22&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=7yyUswEACAAJ&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Illustrated_Collection.html?hl=&id=7yyUswEACAAJ"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "accessViewStatus": "NONE"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "tcSMCwAAQBAJ",
+            "etag": "5sE64c4KrzU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/tcSMCwAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter and the Cursed Child – Parts One and Two (Special Rehearsal Edition)",
+                "authors": [
+                    "J.K. Rowling",
+                    "John Tiffany",
+                    "Jack Thorne"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2016-07-31",
+                "description": "Based on an original new story by J.K. Rowling, Jack Thorne and John Tiffany, a new play by Jack Thorne, Harry Potter and the Cursed Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be presented on stage. The play received its world premiere in London’s West End on 30th July 2016. It was always difficult being Harry Potter and it isn’t much easier now that he is an overworked employee of the Ministry of Magic, a husband and father of three school-age children. While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=tcSMCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=tcSMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=tcSMCwAAQBAJ&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=tcSMCwAAQBAJ&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Cursed_Child_Parts.html?hl=&id=tcSMCwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_and_the_Cursed_Child_Parts-sample-epub.acsm?id=tcSMCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_and_the_Cursed_Child_Parts-sample-pdf.acsm?id=tcSMCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "Based on an original new story by J.K. Rowling, Jack Thorne and John Tiffany, a new play by Jack Thorne, Harry Potter and the Cursed Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "JGQBcu5O_ZcC",
+            "etag": "9JRo+hTbJ3I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/JGQBcu5O_ZcC",
+            "volumeInfo": {
+                "title": "Friends and Foes of Harry Potter",
+                "subtitle": "Names Decoded",
+                "authors": [
+                    "Nikita Agarwal",
+                    "Chitra Agarwal",
+                    "Benjamin Vincent"
+                ],
+                "publisher": "Texas World Publishing",
+                "publishedDate": "2005",
+                "description": "Examines the meanings behind the names of people and places in the Harry Potter books.",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.0.0.preview.1",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=JGQBcu5O_ZcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=JGQBcu5O_ZcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=JGQBcu5O_ZcC&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=JGQBcu5O_ZcC&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Friends_and_Foes_of_Harry_Potter.html?hl=&id=JGQBcu5O_ZcC"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "Examines the meanings behind the names of people and places in the Harry Potter books."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "BoX-6R21MgQC",
+            "etag": "vqnexRalp1U",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BoX-6R21MgQC",
+            "volumeInfo": {
+                "title": "The Psychology of Harry Potter",
+                "subtitle": "An Unauthorized Examination Of The Boy Who Lived",
+                "authors": [
+                    "Neil Mulholland"
+                ],
+                "publisher": "BenBella Books, Inc.",
+                "publishedDate": "2009-06-22",
+                "description": "Harry Potter has provided a portal to the wizarding world for millions of readers, but an examination of Harry, his friends and his enemies will take us on yet another journey: through the psyche of the Muggle (and wizard!) mind. The twists and turns of the series, as well as the psychological depth and complexity of J. K. Rowling’s characters, have kept fans enthralled with and puzzling over the many mysteries that permeate Hogwarts and beyond: Do the Harry Potter books encourage disobedience? Why is everyone so fascinated by Professor Lupin? What exactly will Harry and his friends do when they finally pass those N.E.W.T.s? Do even wizards live by the ticking of the clock? Is Harry destined to end up alone? And why did it take Ron and Hermione so long to get together? Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy series of all time. Grab a spot on the nearest couch, and settle in for some fresh revelations about our favorite young wizard!",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BoX-6R21MgQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BoX-6R21MgQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=BoX-6R21MgQC&pg=PA233&dq=%22Harry+Potter%22&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=BoX-6R21MgQC&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Psychology_of_Harry_Potter.html?hl=&id=BoX-6R21MgQC"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/The_Psychology_of_Harry_Potter-sample-epub.acsm?id=BoX-6R21MgQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/The_Psychology_of_Harry_Potter-sample-pdf.acsm?id=BoX-6R21MgQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "Lyubansky examines the question of racial prejudice in the world of \u003cb\u003eHarry Potter\u003c/b\u003e. \u003cbr\u003e\nRowling portrays a race-blind society at Hogwarts but pursues the issue of race \u003cbr\u003e\nthrough proxy: the hatred of the pure- bloods for the “Mudbloods” and the slavery\u003cbr\u003e\n&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "DKcWE3WXoj8C",
+            "etag": "o6qpzjs0BmQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DKcWE3WXoj8C",
+            "volumeInfo": {
+                "title": "Harry Potter and International Relations",
+                "authors": [
+                    "Daniel H. Nexon",
+                    "Iver B. Neumann"
+                ],
+                "publisher": "Rowman & Littlefield",
+                "publishedDate": "2006",
+                "description": "Drawing on a range of historical and sociological sources, this work shows how aspects of Harry's world contain aspects of our own. It also includes chapters on the political economy of the franchise, and on the problems of studying popular culture.",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=DKcWE3WXoj8C&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=DKcWE3WXoj8C&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_International_Relations.html?hl=&id=DKcWE3WXoj8C"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Harry_Potter_and_International_Relations-sample-pdf.acsm?id=DKcWE3WXoj8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "Drawing on a range of historical and sociological sources, this work shows how aspects of Harry&#39;s world contain aspects of our own."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Aaug_RnI-xQC",
+            "etag": "Set5gRirRCg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Aaug_RnI-xQC",
+            "volumeInfo": {
+                "title": "The Irresistible Rise of Harry Potter",
+                "authors": [
+                    "Andrew Blake"
+                ],
+                "publisher": "Verso",
+                "publishedDate": "2002",
+                "description": "Blake's examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading.",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.ca/books?id=Aaug_RnI-xQC&printsec=frontcover&dq=%22Harry+Potter%22&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=Aaug_RnI-xQC&dq=%22Harry+Potter%22&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Irresistible_Rise_of_Harry_Potter.html?hl=&id=Aaug_RnI-xQC"
+            },
+            "saleInfo": {
+                "country": "CA"
+            },
+            "accessInfo": {
+                "country": "CA",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "accessViewStatus": "SAMPLE"
+            },
+            "searchInfo": {
+                "textSnippet": "Blake&#39;s examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading."
+            }
+        }
+    ]
+}
