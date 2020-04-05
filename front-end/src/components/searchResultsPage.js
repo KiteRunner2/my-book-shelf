@@ -8,15 +8,29 @@ function searchResultsPage(props) {
     );
     const title =
         searchResult.length > 0
-            ? '<div className="col-sm-2 text-center">Title</div><div className="col-sm-10 text-center">Description</div>'
+            ? '<div class="col-sm-2 text-center">Title</div><div class="col-sm-10 text-center">Description</div>'
             : null;
     return (
         <div className="container">
-            <div className="row" dangerouslySetInnerHTML={{ __html: title }} />
+            {/* <div
+                className="row text-center"
+                dangerouslySetInnerHTML={{ __html: title }}
+            /> */}
             {searchResult.map((element) => (
                 <BookCard
                     title={element['volumeInfo']['title']}
-                    description={element['volumeInfo']['description']}
+                    description={
+                        !element['volumeInfo']['description']
+                            ? 'No description available'
+                            : element['volumeInfo']['description']
+                    }
+                    authors={element['volumeInfo']['authors']}
+                    imgLink={
+                        element['volumeInfo']['imageLinks']
+                            ? element['volumeInfo']['imageLinks']['thumbnail']
+                            : ''
+                    }
+                    previewLink={element['volumeInfo']['previewLink']}
                 />
             ))}
         </div>
