@@ -6,9 +6,26 @@ function bookCard(props) {
             marginTop: '5px',
         },
     };
-    function show(e) {
+
+    async function sendBook(e) {
         e.preventDefault();
         console.log(props);
+        const url = '/api/storebook';
+        const data = {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            body: JSON.stringify(props),
+        };
+        const result = await fetch(url, data).then((response) =>
+            response.json()
+        );
+        if (result.answer == 'ok') {
+            alert('Saved');
+        } else {
+            alert('error saving book');
+        }
     }
     return (
         <>
@@ -40,7 +57,7 @@ function bookCard(props) {
                         href="#"
                         className="btn btn-small btn-secondary align-middle"
                         target="blank"
-                        onClick={show}
+                        onClick={sendBook}
                     >
                         Save
                     </a>

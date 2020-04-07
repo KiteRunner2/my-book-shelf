@@ -30,6 +30,6 @@ const MySchema = new mongoose.Schema(
     },
     { strict: false }
 );
-db.Workout = mongoose.model('Bookshelf', MySchema);
+db.Bookshelf = mongoose.model('Bookshelf', MySchema);
 
 module.exports = db;
