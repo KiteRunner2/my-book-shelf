@@ -18,19 +18,11 @@ function searchResultsPage(props) {
             /> */}
             {searchResult.map((element) => (
                 <BookCard
-                    title={element['volumeInfo']['title']}
-                    description={
-                        !element['volumeInfo']['description']
-                            ? 'No description available'
-                            : element['volumeInfo']['description']
-                    }
-                    authors={element['volumeInfo']['authors']}
-                    imgLink={
-                        element['volumeInfo']['imageLinks']
-                            ? element['volumeInfo']['imageLinks']['thumbnail']
-                            : ''
-                    }
-                    previewLink={element['volumeInfo']['previewLink']}
+                    title={element['title']}
+                    description={element['description']}
+                    authors={element['authors']}
+                    imgLink={element['imgLink']}
+                    previewLink={element['previewLink']}
                 />
             ))}
         </div>

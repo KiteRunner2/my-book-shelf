@@ -38,7 +38,7 @@ function SearchPage() {
             return result.json();
         });
         console.log('printing books after getting it from server', books);
-        setSearchResult([...books.items]);
+        setSearchResult([...books]);
     }
 
     return (

@@ -16,7 +16,12 @@ function SavedPage() {
     return (
         <div className="container">
             {books.map((book) => (
-                <SavedBookCard title={book.title} />
+                <SavedBookCard
+                    title={book.title}
+                    description={book.description}
+                    previewLink={book.previewLink}
+                    imgLink={book.imgLink}
+                />
             ))}
         </div>
     );

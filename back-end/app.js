@@ -21,9 +21,27 @@ app.get('/api/getbooks', async (req, res) => {
 app.get('/api/getbooks2/:q', async (req, res) => {
     console.log('api/getbooks2 called...');
     let url = `https://www.googleapis.com/books/v1/volumes?q="${req.params.q}"&key=AIzaSyBAzph4dcGUEI9hkcIh7XuZJzpBuNhEJ9s&projection=lite`;
-    const books = await axios.get(url).then((response) => response.data);
+    const apiResponse = await axios.get(url).then((response) => response.data);
     // console.log(books);
-    res.json(books);
+    let books = apiResponse['searchValue']
+        ? apiResponse['searchValue']
+        : apiResponse;
+    console.log(books);
+    const booksObject = books.items.map((element) => {
+        return {
+            title: element['volumeInfo']['title'],
+            description: !element['volumeInfo']['description']
+                ? 'No description available'
+                : element['volumeInfo']['description'],
+            authors: element['volumeInfo']['authors'],
+            imgLink: element['volumeInfo']['imageLinks']
+                ? element['volumeInfo']['imageLinks']['thumbnail']
+                : '',
+            previewLink: element['volumeInfo']['previewLink'],
+        };
+    });
+    console.log(booksObject);
+    res.json(booksObject);
 });
 
 app.use(express.static('../front-end/build'));
