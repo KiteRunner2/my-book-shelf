@@ -34,14 +34,14 @@ function NavBar() {
                 <div className={showClass} id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <Link to="/home" className="nav-link">
-                                SAVED
+                            <Link to="/saved" className="nav-link">
+                                Saved
                             </Link>
                         </li>
 
                         <li className="nav-item">
                             <Link to="/search" className="nav-link">
-                                SEARCH
+                                Search
                             </Link>
                         </li>
                     </ul>

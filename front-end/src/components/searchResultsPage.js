@@ -2,7 +2,7 @@ import React from 'react';
 import BookCard from './bookCard';
 function searchResultsPage(props) {
     console.log('logging props from searchResultPage', props);
-    const searchResult = props['searchValue'];
+    const searchResult = props['searchValue'] ? props['searchValue'] : props;
     console.log(
         `loggin searchResult for rendering bookCards: ${searchResult.length}`
     );

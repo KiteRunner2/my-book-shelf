@@ -5,6 +5,13 @@ const app = express();
 
 PORT = process.env.PORT || 8080;
 
+app.get('/api/getbooks', async (req, res) => {
+    console.log('api/getbooks called...');
+    const result = await db.Bookshelf.find({});
+    console.log('response from database', result);
+    res.json(result);
+});
+
 app.use(express.static('../front-end/build'));
 // parse application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: false }));
