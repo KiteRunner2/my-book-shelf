@@ -1,9 +1,15 @@
 const express = require('express');
 const fs = require('fs');
 let db = require('./models');
+const axios = require('axios');
 const app = express();
 
 PORT = process.env.PORT || 8080;
+// parse application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: false }));
+
+// parse application/json
+app.use(express.json());
 
 app.get('/api/getbooks', async (req, res) => {
     console.log('api/getbooks called...');
@@ -11,13 +17,16 @@ app.get('/api/getbooks', async (req, res) => {
     console.log('response from database', result);
     res.json(result);
 });
+//this is for calling google api
+app.get('/api/getbooks2/:q', async (req, res) => {
+    console.log('api/getbooks2 called...');
+    let url = `https://www.googleapis.com/books/v1/volumes?q="${req.params.q}"&key=AIzaSyBAzph4dcGUEI9hkcIh7XuZJzpBuNhEJ9s&projection=lite`;
+    const books = await axios.get(url).then((response) => response.data);
+    // console.log(books);
+    res.json(books);
+});
 
 app.use(express.static('../front-end/build'));
-// parse application/x-www-form-urlencoded
-app.use(express.urlencoded({ extended: false }));
-
-// parse application/json
-app.use(express.json());
 
 app.get('*', (req, res) => {
     res.redirect('/');

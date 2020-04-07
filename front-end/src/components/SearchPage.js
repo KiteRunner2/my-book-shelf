@@ -8,7 +8,8 @@ function SearchPage() {
     useEffect(() => {
         console.log('calling useEffect hoook');
         if (searchValue !== '') {
-            getBooks();
+            // getBooks();
+            getBooks2();
         }
     }, [searchValue]);
     function setSearch(phrase) {
@@ -26,6 +27,20 @@ function SearchPage() {
         const books = await fetch(url).then((result) => result.json());
         setSearchResult([...books.items]);
     }
+
+    async function getBooks2() {
+        console.log('getBooks called2');
+        console.log(`searchValue is ${searchValue}`);
+        let url = `/api/getbooks2/q="${searchValue}"`;
+        console.log(`search url is: ${url}`);
+        const books = await fetch(url).then((result) => {
+            console.log(result);
+            return result.json();
+        });
+        console.log('printing books after getting it from server', books);
+        setSearchResult([...books.items]);
+    }
+
     return (
         <div className="container">
             <SearchBar setPhrase={setSearch} />
