@@ -6,7 +6,7 @@ function SavedBookCard(props) {
             marginTop: '5px',
         },
     };
-    console.log('logging props for SavedBookCard', props);
+    // console.log('logging props for SavedBookCard', props);
     return (
         <>
             <div

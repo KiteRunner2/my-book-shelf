@@ -12,21 +12,21 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get('/api/getbooks', async (req, res) => {
-    console.log('api/getbooks called...');
+    // console.log('api/getbooks called...');
     const result = await db.Bookshelf.find({});
-    console.log('response from database', result);
+    // console.log('response from database', result);
     res.json(result);
 });
 //this is for calling google api
 app.get('/api/getbooks2/:q', async (req, res) => {
-    console.log('api/getbooks2 called...');
+    // console.log('api/getbooks2 called...');
     let url = `https://www.googleapis.com/books/v1/volumes?q="${req.params.q}"&key=AIzaSyBAzph4dcGUEI9hkcIh7XuZJzpBuNhEJ9s&projection=lite`;
     const apiResponse = await axios.get(url).then((response) => response.data);
     // console.log(books);
     let books = apiResponse['searchValue']
         ? apiResponse['searchValue']
         : apiResponse;
-    console.log(books);
+    // console.log(books);
     const booksObject = books.items.map((element) => {
         return {
             title: element['volumeInfo']['title'],
@@ -40,7 +40,7 @@ app.get('/api/getbooks2/:q', async (req, res) => {
             previewLink: element['volumeInfo']['previewLink'],
         };
     });
-    console.log(booksObject);
+    // console.log(booksObject);
     res.json(booksObject);
 });
 
@@ -51,24 +51,10 @@ app.get('*', (req, res) => {
 });
 
 app.post('/api/storebook', async (req, res) => {
-    console.log('/api/storebook called');
-    console.log(req.body);
-
-    // let data = {
-    //     day:new Date().setDate(new Date().getDate()),
-    //     exercises:[{
-    //         type:req.body.type,
-    //         name:req.body.name,
-    //         duration:req.body.duration,
-    //         weight:req.body.weight,
-    //         reps:req.body.reps,
-    //         sets:req.body.sets
-    //     }
-    //     ]
-    // }
-    // console.log(data);
+    // console.log('/api/storebook called');
+    // console.log(req.body);
     const result = await db.Bookshelf.create(req.body);
-    console.log('result from creating workout in mongo', result);
+    // console.log('result from creating workout in mongo', result);
     res.json({ answer: 'ok' });
 });
 

@@ -1,11 +1,9 @@
 import React from 'react';
 import BookCard from './bookCard';
 function searchResultsPage(props) {
-    console.log('logging props from searchResultPage', props);
+    // console.log('logging props from searchResultPage', props);
     const searchResult = props['searchValue'] ? props['searchValue'] : props;
-    console.log(
-        `loggin searchResult for rendering bookCards: ${searchResult.length}`
-    );
+
     const title =
         searchResult.length > 0
             ? '<div class="col-sm-2 text-center">Title</div><div class="col-sm-10 text-center">Description</div>'

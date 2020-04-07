@@ -6,11 +6,11 @@ function SavedPage() {
     async function getBooks() {
         const url = '/api/getbooks';
         const result = await fetch(url).then((response) => response.json());
-        console.log(result);
+        // console.log(result);
         setBooks([...result]);
     }
     useEffect(function () {
-        console.log('useEffect for getbooks called');
+        // console.log('useEffect for getbooks called');
         getBooks();
     }, []);
     return (

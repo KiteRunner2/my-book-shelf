@@ -9,7 +9,7 @@ function bookCard(props) {
 
     async function sendBook(e) {
         e.preventDefault();
-        console.log(props);
+        // console.log(props);
         const url = '/api/storebook';
         const data = {
             method: 'POST',
