@@ -14,7 +14,7 @@ function App() {
                     </Route>
                     <Route path="/">
                         <NavBar />
-                        <SearchPage />
+                        {/* <SearchPage /> */}
                     </Route>
                 </Switch>
             </div>

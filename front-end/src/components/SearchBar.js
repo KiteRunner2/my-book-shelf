@@ -31,7 +31,7 @@ function SearchBar(props) {
                     <div className="input-group-append">
                         <button
                             onClick={handleButtonClick}
-                            className="btn btn-lg btn-primary"
+                            className="btn btn-lg btn-outline-primary"
                         >
                             Search
                         </button>
