@@ -29,15 +29,15 @@ function SearchPage() {
     }
 
     async function getBooks2() {
-        // console.log('getBooks called2');
-        // console.log(`searchValue is ${searchValue}`);
+        console.log('getBooks called2');
+        console.log(`searchValue is ${searchValue}`);
         let url = `/api/getbooks2/q="${searchValue}"`;
-        // console.log(`search url is: ${url}`);
+        console.log(`search url is: ${url}`);
         const books = await fetch(url).then((result) => {
-            // console.log(result);
+            console.log(result);
             return result.json();
         });
-        // console.log('printing books after getting it from server', books);
+        console.log('printing books after getting it from server', books);
         setSearchResult([...books]);
     }
 

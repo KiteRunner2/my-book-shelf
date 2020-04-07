@@ -3,6 +3,7 @@ const fs = require('fs');
 let db = require('./models');
 const axios = require('axios');
 const app = express();
+const path = require('path');
 
 PORT = process.env.PORT || 8080;
 // parse application/x-www-form-urlencoded
@@ -44,7 +45,23 @@ app.get('/api/getbooks2/:q', async (req, res) => {
     res.json(booksObject);
 });
 
-app.use(express.static('../front-end/build'));
+app.use(express.static('./public'));
+
+app.get('/search', (req, res) => {
+    const options = {
+        root: path.join(__dirname, 'public'),
+    };
+    // console.log(options.root);
+    res.sendFile('index.html', options);
+});
+
+app.get('/saved', (req, res) => {
+    const options = {
+        root: path.join(__dirname, 'public'),
+    };
+    // console.log(options.root);
+    res.sendFile('index.html', options);
+});
 
 app.get('*', (req, res) => {
     res.redirect('/');
